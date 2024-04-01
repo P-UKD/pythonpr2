@@ -1,0 +1,5 @@
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+k = int(input("k: "))
+print(list(filter(lambda x: x % k == 0, [a, b, c])))
